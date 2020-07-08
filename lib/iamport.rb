@@ -129,6 +129,12 @@ module Iamport
       pay_get(uri)
     end
 
+    def certifications(imp_uid)
+      uri = "certifications/#{imp_uid}"
+
+      pay_get(uri)
+    end
+
     private
 
     # Get header data
